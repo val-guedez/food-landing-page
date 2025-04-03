@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, serif;
+}
+
+.header, .intro-container, .footer {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.header-text {
+    font-size: 24px;
+}
+
+.links-container {
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+}
+
+.signup-container {
+    background-color: white;
+}
+
+.header-text {
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.tagline {
+    color: #F9FAF8;
+}
+
+.subtext, .link {
+    color: #E5E7EB
+}
