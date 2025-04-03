@@ -85,6 +85,46 @@ body {
     max-width: 500px;
 }
 
+
+.food-gallery-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    gap: 10px;
+}
+
+.gallery-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-family: Roboto;
+    font-weight: 900;
+    text-align: center;
+}
+
+.images-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 300px;
+}
+
+
+.group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.dish-img img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.group .description {
+    width: 250px;
+    font-size: 18px;
+}
 .quote-container {
     background-color: #E5E7EB;
 }
