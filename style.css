@@ -46,6 +46,7 @@ body {
 .intro-container {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     padding: 60px 0;
 }
 
@@ -55,8 +56,9 @@ body {
     justify-content: center;
     align-items:start;
     flex: 1;
-    margin-left: 375px;
-    gap: 10px;
+    gap: 15px;
+    max-width: 500px;
+    max-height: 450px;
 }
 
 .subtext {
@@ -77,7 +79,7 @@ body {
 
 .right-container {
     flex: 1;
-    margin-right: 376px;
+    max-width: 500px;
 }
 
 .right-container img {
@@ -91,7 +93,7 @@ body {
     flex-direction: column;
     padding-top: 10px;
     padding-bottom: 30px;
-    gap: 10px;
+    gap: 15px;
 }
 
 .gallery-title {
@@ -104,8 +106,7 @@ body {
 
 .images-container {
     display: flex;
-    justify-content: space-between;
-    margin: 0 300px;
+    justify-content: space-around;
 }
 
 
@@ -119,11 +120,13 @@ body {
     width: 250px;
     height: 250px;
     object-fit: cover;
+    border-radius: 5px;
 }
 
 .group .description {
     width: 250px;
     font-size: 18px;
+    text-align: center;
 }
 .quote-container {
     background-color: #E5E7EB;
