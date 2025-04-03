@@ -27,14 +27,6 @@ body {
     font-size: 18px;
 }
 
-.quote-container {
-    background-color: #E5E7EB;
-}
-
-.signup-container {
-    background-color: white;
-}
-
 .header-text {
     color: #F9FAF8;
     font-weight: 900;
@@ -42,8 +34,61 @@ body {
 
 .tagline {
     color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    width: 400px;
 }
 
 .subtext, .link {
     color: #E5E7EB
+}
+
+.intro-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 0;
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:start;
+    flex: 1;
+    margin-left: 375px;
+    gap: 10px;
+}
+
+.subtext {
+    width: 400px;
+    font-size: 18px;
+}
+
+.signup-button {
+    background-color: #3882F6;
+    color: white;
+    padding: 10 30px;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Roboto;
+    border-radius: 5px;
+}
+
+.right-container {
+    flex: 1;
+    margin-right: 376px;
+}
+
+.right-container img {
+    min-width: 200px;
+    max-width: 500px;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+}
+
+.signup-container {
+    background-color: white;
 }
