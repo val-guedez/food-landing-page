@@ -128,8 +128,26 @@ body {
     font-size: 18px;
     text-align: center;
 }
+
 .quote-container {
     background-color: #E5E7EB;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quote-author {
+    font-weight: bold;
+    font-size: 36px;
+    color: #1F2937;
 }
 
 .signup-container {
