@@ -5,6 +5,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Roboto, serif;
+    background-color: #1F2937;
 }
 
 .header, .intro-container, .footer {
@@ -94,6 +95,7 @@ body {
     padding-top: 10px;
     padding-bottom: 30px;
     gap: 15px;
+    background-color: white;
 }
 
 .gallery-title {
@@ -152,4 +154,52 @@ body {
 
 .signup-container {
     background-color: white;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.rectangle {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 150px;
+    min-width: 700px;
+
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.shouty-text {
+    font-size: 18px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.text-container .description {
+    width: 500px;
+    color: #F9FAF8;
+}
+
+#action-button {
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
+
+.signup-button:hover {
+    cursor: pointer;
+    box-shadow:  5px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.signup-button:active {
+    box-shadow:  10px 15px 20px rgba(0, 0, 0, 0.5);
+}
+
+
