@@ -166,7 +166,7 @@ body {
     justify-content: space-around;
     align-items: center;
     min-height: 150px;
-    min-width: 700px;
+    min-width: 900px;
 
 }
 
@@ -200,6 +200,17 @@ body {
 
 .signup-button:active {
     box-shadow:  10px 15px 20px rgba(0, 0, 0, 0.5);
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.footer-text {
+    color: white;
 }
 
 
